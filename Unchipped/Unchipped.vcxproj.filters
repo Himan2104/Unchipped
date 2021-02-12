@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\elib">
+      <UniqueIdentifier>{3802cec4-c49c-47db-9007-a0a2df6b54f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\elib">
+      <UniqueIdentifier>{f6ed009f-efca-4804-af2c-b8dc85142bff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditsScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elib\Animator.cpp">
+      <Filter>Source Files\elib</Filter>
+    </ClCompile>
+    <ClCompile Include="elib\Button.cpp">
+      <Filter>Source Files\elib</Filter>
+    </ClCompile>
+    <ClCompile Include="elib\CheckBox.cpp">
+      <Filter>Source Files\elib</Filter>
+    </ClCompile>
+    <ClCompile Include="elib\guibase.cpp">
+      <Filter>Source Files\elib</Filter>
+    </ClCompile>
+    <ClCompile Include="elib\Slider.cpp">
+      <Filter>Source Files\elib</Filter>
+    </ClCompile>
+    <ClCompile Include="elib\TextBox.cpp">
+      <Filter>Source Files\elib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApplication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditsScreen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eUtil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elib\Button.hpp">
+      <Filter>Header Files\elib</Filter>
+    </ClInclude>
+    <ClInclude Include="elib\CheckBox.hpp">
+      <Filter>Header Files\elib</Filter>
+    </ClInclude>
+    <ClInclude Include="elib\guibase.hpp">
+      <Filter>Header Files\elib</Filter>
+    </ClInclude>
+    <ClInclude Include="elib\Slider.hpp">
+      <Filter>Header Files\elib</Filter>
+    </ClInclude>
+    <ClInclude Include="elib\Animator.hpp">
+      <Filter>Header Files\elib</Filter>
+    </ClInclude>
+    <ClInclude Include="elib\TextBox.hpp">
+      <Filter>Header Files\elib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
