@@ -16,7 +16,7 @@ void CreditsScreen::initialize()
     banner.setTexture(AssetManager::access()->getTexture("spsc_banner"));
 
     creds.setTexture(AssetManager::access()->getTexture("spsc_creds"));
-    util::eUtil::centerOrigin(creds);
+    util::centerOrigin(creds);
     creds.setPosition(960,3080);
 
     bgMusic.openFromFile(AssetManager::access()->getMusic("tresh"));

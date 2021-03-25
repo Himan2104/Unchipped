@@ -1,6 +1,6 @@
 
 #include "SplashScreen.hpp"
-#include "eUtil.hpp"
+#include "Utility.hpp"
 
 SplashScreen::SplashScreen()
 {

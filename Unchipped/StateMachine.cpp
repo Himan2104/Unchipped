@@ -1,4 +1,3 @@
-
 #include "StateMachine.hpp"
 #include<iostream>
 

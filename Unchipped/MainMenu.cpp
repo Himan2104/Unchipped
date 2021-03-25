@@ -35,7 +35,7 @@ void MainMenu::initialize()
 	pressanykey.setString("Press ENTER to continue...");
 	pressanykey.setFont(AssetManager::access()->getFont("sjbadjkw"));
 	pressanykey.setCharacterSize(40);
-	util::eUtil::centerOrigin(pressanykey);
+	util::centerOrigin(pressanykey);
 	pressanykey.setPosition(960.0f, 960.0f);
 
 	shadeoverlay.setSize(sf::Vector2f(1920, 1080));
@@ -46,7 +46,7 @@ void MainMenu::initialize()
 	bg.setTexture(AssetManager::access()->getTexture("mm_bg"));
 
 	logo.setTexture(AssetManager::access()->getTexture("mm_title"));
-	util::eUtil::centerOrigin(logo);
+	util::centerOrigin(logo);
 	logo.setPosition(960.0f, 200.0f);
 
 	ligt.setTexture(AssetManager::access()->getTexture("lightning"));
@@ -62,17 +62,20 @@ void MainMenu::eventHandler(sf::Event& event, const sf::RenderWindow& window)
 	/*PLAY.EventHandler(event, window);
 	CREDITS.EventHandler(event, window);
 	EXIT.EventHandler(event, window);*/
-	if (PLAY.isClicked(window))
+	if (pak)
 	{
-		click.play();
-		StateMachine::access()->changeState(new GameState());
+		if (PLAY.isClicked(window))
+		{
+			click.play();
+			StateMachine::access()->changeState(new GameState());
+		}
+		else if (CREDITS.isClicked(window))
+		{
+			click.play();
+			StateMachine::access()->changeState(new CreditsScreen());
+		}
+		else if (EXIT.isClicked(window)) exit(0);
 	}
-	else if (CREDITS.isClicked(window))
-	{
-		click.play();
-		StateMachine::access()->changeState(new CreditsScreen());
-	}
-	else if (EXIT.isClicked(window)) exit(0);
 }
 
 void MainMenu::update(float delTime)
