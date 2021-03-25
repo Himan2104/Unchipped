@@ -20,7 +20,7 @@ void GameState::initialize()
 
 	player.setSize(sf::Vector2f(64.0f, 200.0f));
 	player.setFillColor(sf::Color::Magenta);
-	util::eUtil::centerOrigin(player);
+	util::centerOrigin(player);
 	//player.setPosition(map_loader.SpawnPoint().left + map_loader.SpawnPoint().width / 2.0f, map_loader.SpawnPoint().top + map_loader.SpawnPoint().height / 2.0f);
 
 	camera.setSize(sf::Vector2f(1920.0f, 1080.0f));

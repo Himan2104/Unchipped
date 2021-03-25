@@ -136,12 +136,12 @@
       <AdditionalIncludeDirectories>$(SolutionDir)Unchipped\Libraries\TMXlite\include;$(SolutionDir)Unchipped\Libraries\sfeMovie\include;$(SolutionDir)Unchipped\Libraries\SFML\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)Unchipped\Libraries\sfeMovie\lib;$(SolutionDir)Unchipped\Libraries\TMXlite\lib;$(SolutionDir)Unchipped\Libraries\SFML\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfeMovie.lib;tmxlite.lib;sfml-graphics.lib;sfml-audio.lib;sfml-window.lib;sfml-system.lib;opengl32.lib;openal32.lib;freetype.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;winmm.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfeMovie.lib;tmxlite.lib;sfml-graphics.lib;sfml-audio.lib;sfml-window.lib;sfml-system.lib;sfml-main.lib;opengl32.lib;openal32.lib;freetype.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;winmm.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -158,9 +158,12 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainApplication.cpp" />
     <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="SaveSystem.cpp" />
     <ClCompile Include="SplashScreen.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="TimeKeeper.cpp" />
+    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssetManager.hpp" />
@@ -172,10 +175,13 @@
     <ClInclude Include="elib\guibase.hpp" />
     <ClInclude Include="elib\Slider.hpp" />
     <ClInclude Include="elib\TextBox.hpp" />
-    <ClInclude Include="eUtil.hpp" />
+    <ClInclude Include="SaveSystem.hpp" />
+    <ClInclude Include="TimeKeeper.hpp" />
+    <ClInclude Include="Utility.hpp" />
     <ClInclude Include="GameState.hpp" />
     <ClInclude Include="MainApplication.hpp" />
     <ClInclude Include="MainMenu.hpp" />
+    <ClInclude Include="SFMLOrthogonalLayer.hpp" />
     <ClInclude Include="SplashScreen.hpp" />
     <ClInclude Include="State.hpp" />
     <ClInclude Include="StateMachine.hpp" />

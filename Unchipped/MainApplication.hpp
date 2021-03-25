@@ -1,5 +1,7 @@
 #pragma once
 #include"SFML/Graphics.hpp"
+#include"Debug.hpp"
+#include"TimeKeeper.hpp"
 
 class MainApplication
 {
@@ -15,7 +17,7 @@ private:
 	sf::VideoMode Vmode;
 	sf::RenderWindow window;
 
-	sf::Clock mainClock;
-	float delTime;
+	onScreenDD debugData;
+	sf::Text _dd;
 };
 

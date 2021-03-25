@@ -5,6 +5,7 @@
 #include"AssetManager.hpp"
 #include"elib/Button.hpp"
 #include"elib/Animator.hpp"
+#include"Utility.hpp"
 #include"CreditsScreen.hpp"
 #include"GameState.hpp"
 

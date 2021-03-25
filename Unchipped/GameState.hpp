@@ -6,7 +6,7 @@
 #include"MainMenu.hpp"
 #include"CreditsScreen.hpp"
 #include"SplashScreen.hpp"
-#include"eUtil.hpp"
+#include"Utility.hpp"
 #include"SFMLOrthogonalLayer.hpp"
 
 class GameState : public State
