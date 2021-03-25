@@ -162,6 +162,7 @@
     <ClCompile Include="SplashScreen.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="TimeKeeper.cpp" />
     <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +176,7 @@
     <ClInclude Include="elib\Slider.hpp" />
     <ClInclude Include="elib\TextBox.hpp" />
     <ClInclude Include="SaveSystem.hpp" />
+    <ClInclude Include="TimeKeeper.hpp" />
     <ClInclude Include="Utility.hpp" />
     <ClInclude Include="GameState.hpp" />
     <ClInclude Include="MainApplication.hpp" />

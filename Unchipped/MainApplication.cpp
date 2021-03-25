@@ -1,4 +1,4 @@
-
+#include<typeinfo>
 #include "MainApplication.hpp"
 #include "StateMachine.hpp"
 #include "SplashScreen.hpp"
@@ -10,11 +10,17 @@ MainApplication::MainApplication(sf::VideoMode Vmode, std::string name)
 	this->Vmode = Vmode;
 	window.create(this->Vmode, name, sf::Style::Close);
 	window.setFramerateLimit(200);
-	delTime = 0;
+
+
+	
 
 	AssetManager::access()->loadGlobalAssets();
 
 	StateMachine::access()->changeState(new SplashScreen());
+	
+	_dd.setFont(AssetManager::access()->getFont("con_font"));
+	_dd.setCharacterSize(12u);
+	_dd.setPosition(5.0f, 5.0f);
 }
 
 MainApplication::~MainApplication()
@@ -23,9 +29,11 @@ MainApplication::~MainApplication()
 
 void MainApplication::run()
 {
+	TimeKeeper::initializeTime();
+
 	while (window.isOpen())
 	{
-		delTime = mainClock.restart().asSeconds();
+		TimeKeeper::updateTime();
 
 		sf::Event event;
 		while (window.pollEvent(event))
@@ -34,10 +42,19 @@ void MainApplication::run()
 			StateMachine::access()->getActiveState()->eventHandler(event, window);
 		}
 
-		StateMachine::access()->getActiveState()->update(delTime);
+		StateMachine::access()->getActiveState()->update(TimeKeeper::deltaTime());
+
+		debugData = {1.0f/TimeKeeper::frameTime(),
+		TimeKeeper::timeSinceStart(TimeKeeper::ClockType::Static),
+		TimeKeeper::timeSinceStart(TimeKeeper::ClockType::Dynamic),
+		TimeKeeper::getTimeScale(), typeid(*StateMachine::access()->getActiveState()).name()};
+
+		_dd.setString(Debug::onScreenDebugData(debugData));
 
 		window.clear();
 		StateMachine::access()->getActiveState()->draw(window);
+		_dd.setPosition(window.getView().getCenter() - sf::Vector2f(955.0f, 535.0f));
+		window.draw(_dd);
 		window.display();
 	}
 }

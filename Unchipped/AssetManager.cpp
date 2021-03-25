@@ -20,6 +20,7 @@ void AssetManager::loadGlobalAssets()
 {
 	//fonts
 	loadFont("default_font", "data/fonts/neuropol.ttf");
+	loadFont("con_font", "data/fonts/consola.ttf");
 
 	//textures
 	loadTexture("texture_not_found", "data/images/NAtex.png");

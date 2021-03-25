@@ -75,6 +75,9 @@
     <ClCompile Include="Utility.cpp">
       <Filter>Source Files\elib</Filter>
     </ClCompile>
+    <ClCompile Include="TimeKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssetManager.hpp">
@@ -129,6 +132,9 @@
       <Filter>Header Files\elib</Filter>
     </ClInclude>
     <ClInclude Include="SaveSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeKeeper.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
