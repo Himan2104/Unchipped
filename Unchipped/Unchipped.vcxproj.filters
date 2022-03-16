@@ -19,123 +19,513 @@
     <Filter Include="Source Files\elib">
       <UniqueIdentifier>{f6ed009f-efca-4804-af2c-b8dc85142bff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{b7ad513f-0003-4de9-95fb-5a91dff5925f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\states">
+      <UniqueIdentifier>{458f012e-ebcb-4af8-8044-bb9717561788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{503fb15e-2e03-4f33-9a3f-9d67d60c87a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states">
+      <UniqueIdentifier>{2246105a-2ebe-4806-b26d-ed81650ac695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dragonbones">
+      <UniqueIdentifier>{26d435de-c7d8-4606-8b3f-5a4d50fc16e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dragonbones">
+      <UniqueIdentifier>{2afd4ca4-a4b4-45fc-bc55-86324ec65a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobjects">
+      <UniqueIdentifier>{400a4d5f-f83c-470b-9291-e72c0227f24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobjects">
+      <UniqueIdentifier>{46bd6644-25f6-44d2-8817-2c4f36101333}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AssetManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MainApplication.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CreditsScreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Debug.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MainMenu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SplashScreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="State.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StateMachine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="elib\Animator.cpp">
+    <ClCompile Include="src\elib\Animator.cpp">
       <Filter>Source Files\elib</Filter>
     </ClCompile>
-    <ClCompile Include="elib\Button.cpp">
+    <ClCompile Include="src\elib\Button.cpp">
       <Filter>Source Files\elib</Filter>
     </ClCompile>
-    <ClCompile Include="elib\CheckBox.cpp">
+    <ClCompile Include="src\elib\CheckBox.cpp">
       <Filter>Source Files\elib</Filter>
     </ClCompile>
-    <ClCompile Include="elib\guibase.cpp">
+    <ClCompile Include="src\elib\guibase.cpp">
       <Filter>Source Files\elib</Filter>
     </ClCompile>
-    <ClCompile Include="elib\Slider.cpp">
+    <ClCompile Include="src\elib\Slider.cpp">
       <Filter>Source Files\elib</Filter>
     </ClCompile>
-    <ClCompile Include="elib\TextBox.cpp">
+    <ClCompile Include="src\elib\TextBox.cpp">
       <Filter>Source Files\elib</Filter>
     </ClCompile>
-    <ClCompile Include="SaveSystem.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\core\AssetManager.cpp">
+      <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="Utility.cpp">
-      <Filter>Source Files\elib</Filter>
+    <ClCompile Include="src\core\Debug.cpp">
+      <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="TimeKeeper.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\core\MainApplication.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\SaveSystem.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\State.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\StateMachine.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\TimeKeeper.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\CreditsScreen.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\GameState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\MainMenu.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\SplashScreen.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Utility.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\OptionsMenu.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\animation\Animation.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\AnimationConfig.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\AnimationData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\animation\AnimationState.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\armature\Armature.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\ArmatureData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\factory\BaseFactory.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\core\BaseObject.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\animation\BaseTimelineState.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\parser\BinaryDataParser.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\armature\Bone.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\BoundingBoxData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\CanvasData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\armature\Constraint.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\ConstraintData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\parser\DataParser.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\armature\DeformVertices.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\DisplayData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\core\DragonBones.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\DragonBonesData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\event\EventObject.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\parser\JSONDataParser.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\geom\Point.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\sfdb\SFMLArmatureDisplay.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\sfdb\SFMLArmatureProxy.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\sfdb\SFMLFactory.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\sfdb\SFMLSlot.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\sfdb\SFMLTextureAtlasData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\SkinData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\armature\Slot.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\TextureAtlasData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\animation\TimelineState.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\geom\Transform.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\armature\TransformObject.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\model\UserData.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\dragonBones\animation\WorldClock.cpp">
+      <Filter>Source Files\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameobjects\Player.cpp">
+      <Filter>Source Files\gameobjects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AssetManager.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MainApplication.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CreditsScreen.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Debug.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameState.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MainMenu.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SplashScreen.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="State.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StateMachine.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="elib\Button.hpp">
+    <ClInclude Include="include\elib\Button.hpp">
       <Filter>Header Files\elib</Filter>
     </ClInclude>
-    <ClInclude Include="elib\CheckBox.hpp">
+    <ClInclude Include="include\elib\CheckBox.hpp">
       <Filter>Header Files\elib</Filter>
     </ClInclude>
-    <ClInclude Include="elib\guibase.hpp">
+    <ClInclude Include="include\elib\guibase.hpp">
       <Filter>Header Files\elib</Filter>
     </ClInclude>
-    <ClInclude Include="elib\Slider.hpp">
+    <ClInclude Include="include\elib\Slider.hpp">
       <Filter>Header Files\elib</Filter>
     </ClInclude>
-    <ClInclude Include="elib\Animator.hpp">
+    <ClInclude Include="include\elib\Animator.hpp">
       <Filter>Header Files\elib</Filter>
     </ClInclude>
-    <ClInclude Include="elib\TextBox.hpp">
+    <ClInclude Include="include\elib\TextBox.hpp">
       <Filter>Header Files\elib</Filter>
     </ClInclude>
-    <ClInclude Include="SFMLOrthogonalLayer.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\core\AssetManager.hpp">
+      <Filter>Header Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="Utility.hpp">
-      <Filter>Header Files\elib</Filter>
+    <ClInclude Include="include\core\Debug.hpp">
+      <Filter>Header Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="SaveSystem.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\core\MainApplication.hpp">
+      <Filter>Header Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="TimeKeeper.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\core\SaveSystem.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\SFMLOrthogonalLayer.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\State.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\StateMachine.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\TimeKeeper.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\states\CreditsScreen.hpp">
+      <Filter>Header Files\states</Filter>
+    </ClInclude>
+    <ClInclude Include="include\states\GameState.hpp">
+      <Filter>Header Files\states</Filter>
+    </ClInclude>
+    <ClInclude Include="include\states\MainMenu.hpp">
+      <Filter>Header Files\states</Filter>
+    </ClInclude>
+    <ClInclude Include="include\states\SplashScreen.hpp">
+      <Filter>Header Files\states</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\Utility.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\states\OptionsMenu.hpp">
+      <Filter>Header Files\states</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\allocators.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\animation\Animation.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\AnimationConfig.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\AnimationData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\animation\AnimationState.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\armature\Armature.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\ArmatureData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\factory\BaseFactory.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\core\BaseObject.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\animation\BaseTimelineState.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\biginteger.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\parser\BinaryDataParser.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\armature\Bone.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\BoundingBoxData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\CanvasData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\geom\ColorTransform.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\armature\Constraint.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\ConstraintData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\parser\DataParser.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\armature\DeformVertices.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\DisplayData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\diyfp.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\document.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\core\DragonBones.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\DragonBonesData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\DragonBonesHeaders.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\dtoa.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\error\en.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\encodedstream.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\encodings.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\error\error.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\event\EventObject.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\filereadstream.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\filewritestream.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\fwd.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\animation\IAnimatable.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\armature\IArmatureProxy.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\ieee754.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\event\IEventDispatcher.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\msinttypes\inttypes.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\istreamwrapper.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\itoa.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\parser\JSONDataParser.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\geom\Matrix.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\memorybuffer.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\memorystream.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\meta.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\ostreamwrapper.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\geom\Point.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\pointer.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\pow10.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\prettywriter.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\rapidjson.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\reader.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\geom\Rectangle.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\regex.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\schema.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLArmatureDisplay.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLArmatureProxy.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLDisplay.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLEventDispatcher.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLFactory.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLNode.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLSlot.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLTextureAtlasData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sfdb\SFMLTextureData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\SkinData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\armature\Slot.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\stack.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\msinttypes\stdint.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\stream.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\strfunc.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\stringbuffer.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\strtod.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\internal\swap.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\TextureAtlasData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\animation\TimelineState.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\geom\Transform.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\armature\TransformObject.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\model\UserData.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\dragonBones\animation\WorldClock.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\rapidjson\writer.h">
+      <Filter>Header Files\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameobjects\Player.hpp">
+      <Filter>Header Files\gameobjects</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
