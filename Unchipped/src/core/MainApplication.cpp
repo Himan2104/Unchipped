@@ -6,7 +6,7 @@
 MainApplication::MainApplication(sf::VideoMode Vmode, std::string name)
 {
 	this->Vmode = Vmode;
-	window.create(this->Vmode, name, sf::Style::Fullscreen);
+	window.create(this->Vmode, name, sf::Style::Close);
 	window.setFramerateLimit(0);
 
 	AssetManager::access()->loadGlobalAssets();

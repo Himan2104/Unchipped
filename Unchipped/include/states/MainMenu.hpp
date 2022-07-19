@@ -53,8 +53,5 @@ private:
 	sf::Clock delayTimer;
 
 	void lAnima(float switchTime);
-
-	
-
 };
 

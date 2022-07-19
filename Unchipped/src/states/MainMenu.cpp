@@ -59,9 +59,6 @@ void MainMenu::initialize()
 
 	MenuBG.openFromFile("data/videos/MainMenuBG.mov");
 	MenuBG.play();
-
-
-	
 }
 
 void MainMenu::eventHandler(sf::Event& event, const sf::RenderWindow& window)
