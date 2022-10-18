@@ -3,6 +3,9 @@ Beeg Promject Main Repository [Under Development]
 
 An upcoming 2D Side Scroller Cyberpunk themed game which takes place in a dystopian metropolitan city.
 
+---
+On hold since 2020. I'll maybe work on it when [Rengine](https://github.com/Himan2104/Rengine) is complete.
+---
 
 +++CURRENTLY UNDER WORKS+++
 
